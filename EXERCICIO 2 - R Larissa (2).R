@@ -83,6 +83,15 @@ rbind (bacon, variaveis = c(sapply(bacon, class)))
 
 rbind (bacon, variaveis = c(sapply(bacon, class)))
 
+# SUGESTÃO
+rbin(bacon, data.frame(colegas = "Neylson",
+                       idade = 31,
+                       curso = "CD",
+                       timedefutebol = "América",
+                       horas = 5.7))
+# Estamos acrescentando as informações do professor no banco de dados como se ele fosse mais um entrevistado!
+
+
 #11 Crie uma lista com todos os objetos que vocÃÂª criou neste exercÃ­cios. 
 # Exiba a lista. Apresente a classe da lista.
 
